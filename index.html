@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,21 +14,43 @@
   </head>
  
   <body>
-    <header>
-      <a>Sobre</a><a>Portifolio</a>
+    <header>   <a href="./index.html">Home</a>
+      <a href="./sobre.html">Sobre</a><a>Portifolio</a>
       <a href="https://www.instagram.com/murillo.cardoso12/" class="fa-brands fa-instagram" id="icon"></a
       ><a href="https://www.linkedin.com/in/murillo-cardoso-589338211/" class="fa-brands fa-linkedin" id="icon"></a>
       <a href="https://github.com/MurilloCardoso" class="fa-brands fa-github" id="icon"></a>
     </header>
     <main>
-      <p class="MeuNome">
-        Oi meu nome é Murillo Cardoso sou desenvolvedor Mobile
-      </p>
-      <div class=""></div>
-      <h2>
+      <section class="apresentacao">
+      <H4 class="MeuNome">Murillo C Martins</H4>
+    <p class="MeuNome">
+      Sou um entusiasta da área de tecnologia, em busca constante de evolução e aprendizado para
+      aprimorar a qualidade e o desempenho das minhas áreas de atuação, as quais englobam o
+      desenvolvimento móvel e de software.
+    </p>
+    <p class="MeuNome">Neste site, você encontrará o meu currículo, bem como as minhas criações nas áreas de web e mobile, totalmente gratuitas para uso, juntamente com o código para serem analisadas.</p>
+  </section>
+     
+      
+      <section>
+        <h2>Oque eu já fiz?</h2>
+        <div class="list-portfolio">
+          <article>
+            <i class="fa-light fa-globe"></i>
+            <p>Sites</p>
+         </article>
+         <article>
+          <i class="fa-solid fa-mobile"></i>
+            <p>Aplicativos</p>
+         </article>
+        </div>
+      
+      </section>
+      <h1 class="text-Meu-Portifolio">
         <span class="gray-text">Meu portifolio.</span>
-        <span class="black-text">Dê uma olhada no que desenvolvi.</span>
-      </h2>
+        <span class="black-text">Dê uma olhada em um dos meus trabalhos</span>
+      </h1>
+      <div style="display: flex; gap:20px; flex-direction: column;">
       <section class="qualificacoes">
         <h2>
           <span class="gray-text">Task Use.</span>
@@ -36,12 +58,11 @@
         </h2>
         <div class="item-dev-qualificacoes">
           <div id="phone">
-            <img src="./fotos app/taskuse/home.png" /><img
-              src="./fotos app/taskuse/chat task.png"
-            />
-
-            <img src="./fotos app/taskuse/insert Task.png" />
-            <img src="./fotos app/taskuse/login Simples.png" />
+            <div class="devices">
+              <img src="./fotos app/taskuse/home.png" />
+              <img  src="./fotos app/taskuse/chat task.png" />
+              <img src="./fotos app/taskuse/insert Task.png" />
+           </div>
             <div class="item-list-div">
               <p class="item-descricao">
                 Este aplicativo foi criado com o objetivo de simplificar a
@@ -56,19 +77,70 @@
                 se torna mais eficiente e transparente, melhorando a experiência
                 tanto para os usuários quanto para as equipes de suporte.
               </p>
-              <div class="list-linguagem-utilizada">
-                <i id="icon" class="fa-brands fa-android"></i
-                ><img src="./fotos app/icons/flutter-icon.png" id="icon" style="width: 1.5rem"></img>
-              </div>
-              <div class="list-item-misc">
-                <a id="icon" class="fa-solid fa-download" href="https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download"></a
-                ><a  href="https://github.com/MurilloCardoso/TicketUser" target="_blank" class="fa-brands fa-github" id="icon"></a>
-              </div>
-            </div>
+              <div style="gap: 20px; display: flex;flex-direction: column;">
+                    <div style=" display: flex; flex-direction: column;align-items: start;">
+                      <p class="item-descricao">Linguagens Utilizadas</p>
+                      <div class="list-linguagem-utilizada">
+                        <a  class="fa-brands fa-android"  style="font-size: 2em; color: green;"></a>
+                        <img src="./fotos app/icons/flutter-icon.png" style="width: 35px; height: 40px;"></img>
+                     
+                      </div>
+                    </div>
+                      <div class="list-item-misc">
+                        <div> <a href="https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download" target="_blank"  style=" font-size: 1.5rem" class="fa-solid fa-download"></a><p>Baixar Apk</p></div>
+                        <div> <a href="https://github.com/MurilloCardoso/TicketUser" target="_blank" class="fa-brands fa-github" style=" font-size: 1.5rem" ></a><p>Repositório</p></div>
+                      </div>
+                
+             </div>
           </div>
         </div>
-        <div class="item-dev-qualificacoes"></div>
-      </section>
+       
+      </section> 
+      <section class="qualificacoes">
+        <h2>
+          <span class="gray-text">Indo Ali.</span>
+          <span class="black-text">Gerenciamento de viagem.</span>
+        </h2>
+        <div class="item-dev-qualificacoes">
+          <div id="phone">
+            <div class="devices">
+              <img src="./fotos app/taskuse/home.png" />
+              <img  src="./fotos app/taskuse/chat task.png" />
+              <img src="./fotos app/taskuse/insert Task.png" />
+           </div>
+            <div class="item-list-div">
+              <p class="item-descricao">
+                Este aplicativo foi criado com o objetivo de simplificar a
+                comunicação e o processo de abertura de chamados em diversos
+                setores. Os usuários podem facilmente abrir um "ticket" para
+                relatar problemas ou solicitar assistência. Além disso, o app
+                permite acompanhar o status de resolução do chamado em tempo
+                real. Para tornar a experiência mais interativa, o aplicativo
+                também oferece um recurso de chat, permitindo aos usuários
+                comunicar-se diretamente com o responsavel que atender o
+                chamado. Com essa solução, a gestão de solicitações e problemas
+                se torna mais eficiente e transparente, melhorando a experiência
+                tanto para os usuários quanto para as equipes de suporte.
+              </p>
+              <div style="gap: 20px; display: flex;flex-direction: column;">
+                    <div style=" display: flex; flex-direction: column;align-items: start;">
+                      <p class="item-descricao">Linguagens Utilizadas</p>
+                      <div class="list-linguagem-utilizada">
+                        <a  class="fa-brands fa-android"  style="font-size: 2em; color: green;"></a>
+                        <img src="./fotos app/icons/flutter-icon.png" style="width: 35px; height: 40px;"></img>
+                        <img src="./fotos app/icons/java.png"  class="fa-brands fa-java" style="width: 35px; height: 60px;"></img>
+                      </div>
+                    </div>
+                      <div class="list-item-misc">
+                        <div> <a href="https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download" target="_blank"  style=" font-size: 1.5rem" class="fa-solid fa-download"></a><p>Baixar Apk</p></div>
+                        <div> <a href="https://github.com/MurilloCardoso/TicketUser" target="_blank" class="fa-brands fa-github" style=" font-size: 1.5rem" ></a><p>Repositório</p></div>
+                      </div>
+                
+             </div>
+          </div>
+        </div>
+       
+      </section></div>
     </main>
     <footer class="legal-footer">
       <section class="footer-list">

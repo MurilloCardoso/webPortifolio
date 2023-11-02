@@ -1,96 +1,176 @@
 body {
-  font-size: 17px;
-  line-height: 1.47059;
-  font-weight: 400;
-  letter-spacing: -0.022em;
-  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
-  background-color: rgb(255, 255, 255);
-  color: rgb(29, 29, 31);
-  font-style: normal;
-  background: #f5f5f7;
+  font: 400 17px/1.47059 "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f5f5f7;
+  color: #1D1D1F;
+  margin: 0px;
 }
-.MeuNome {
-  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
+main{
+
+margin: 50px;
+}
+.text-Meu-Portifolio{
   font-size: 24px;
-  color: rgb(29, 29, 31);
 }
+#icon{
+font-size: 2rem;
+}
+.MeuNome, .devNome {
+  font-size: 24px;
+  color: #1D1D1F;
+}
+
 header {
+  padding: 15px;
+  background: #121212;
   align-items: center;
   display: flex;
-  gap: 20;
   justify-content: center;
   gap: 20px;
-}
-header a {
-  gap: 20px;
-  font-size: 18px;
-  color: #6e6e73;
-}
-main {
   text-align: center;
 }
-.devNome {
-  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
-  color: black;
-  font-size: 27px;
-}
-p {
-  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
 
-  color: #6e6e73;
+header a {
+ 
+  color: #ffffff;
+
 }
+
+.gray-text, .black-text {
+  font: 400 17px/1.47059 "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .gray-text {
-  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
-  color: black;
+  color: #1D1D1F;
 }
 
 .black-text {
-  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
   color: gray;
 }
-
 .qualificacoes {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideDown 1s ease forwards;
   display: flex;
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
   flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
-  margin: 50px;
+}
+.item-list-div{
+  padding: 25px;
 }
 .footer-list {
   display: flex;
   padding: 20px;
   gap: 20px;
 }
-.qualificacoes:hover {
-  cursor: pointer;
+
+.list-linguagem-utilizada {
+  display: flex;
+gap: 20px;
+  align-items: center;
+}
+
+.apresentacao p{
+ 
+  width: 700px;
+  text-align: justify;
 }
 .legal-footer {
-  margin-top: 50px;
-  color: #6e6e73;
+  display: flex;flex-direction: column;
+  padding: 25px;
+  align-items:center;
 }
-#icon {
-  font-size: 2rem;
+.list-portfolio{
+  display: flex;
+  gap: 40px;
 }
-.item-descricao {
-  text-align: justify;
-  padding: 50px;
+.list-portfolio article i{
+  font-size: 3rem;
 }
-.item-dev-qualificacoes {
-  /* display: flex;
-  flex-direction: column;
+.list-portfolio article{
+display: flex;
+flex-direction: column;
+align-items: center;
+} 
+.list-portfolio article p{
+   font-weight: 700;
+}
+a { 
+  text-decoration: none;
+  color: black;
+}
+
+.list-item-misc div p {
+ 
+  font-weight: 600;
+  color: black;
+}
+
+.list-item-misc div:hover {
+  cursor: pointer;
+  box-shadow: 12px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.list-item-misc div {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   border-radius: 18px;
-  width: 270px;
-  height: 450px;
-  white-space: normal;
-  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08); */
+  padding-left: 25px;
+  padding-right:25px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
 }
-a {
-  text-decoration: none;
+.item-descricao{
+  text-align: justify;
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 6);
+}
+.list-item-misc {
+  align-items: start;
+  display: flex;
+  gap: 10px;
+}
+
+#phone{
+  flex-wrap: nowrap;
+display: flex;
+
+
+}
+ .devices img {
+  width: 250px; /* Defina o tamanho desejado em pixels */
+  height: auto; /* Isso manterá a proporção original da imagem */
+  /* Outros estilos que você deseja aplicar às imagens */
+}
+.devices{
+  display: flex;
+}
+
+@media (max-width: 1208px) {
+
+  #phone {
+    display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    
+  /* Outros estilos para telas menores aqui */
+}@keyframes slideDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
