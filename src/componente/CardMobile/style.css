@@ -1,0 +1,112 @@
+.qualificacoes-border {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideDown 1s ease forwards;
+  display: flex;
+  background-color: #fff;
+  width: 300px; /* Largura fixa */
+  max-width: 100%; /* Garante que não ultrapasse o tamanho da tela */
+  padding-top: 40px;
+  padding-bottom: 30px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.qualificacoes-border :hover {
+  cursor: pointer;
+}
+.qualificacoes {
+  animation: slideDown 1s ease forwards;
+  display: flex;
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+.item-list-div {
+  padding: 25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+}
+.list-item-misc div p {
+  font-weight: 600;
+  color: black;
+}
+
+.list-item-misc div:hover {
+  cursor: pointer;
+  box-shadow: 12px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.list-item-misc div {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 18px;
+  text-align: center;
+  padding-left: 15px;
+  padding-top: 15px;
+
+  padding-right: 15px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+}
+.item-descricao {
+  text-align: justify;
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 6);
+}
+.list-item-misc {
+  align-items: start;
+  display: flex;
+  gap: 10px;
+}
+
+#phone {
+  flex-wrap: nowrap;
+  display: flex;
+}
+.devices img {
+  width: 250px; /* Defina o tamanho desejado em pixels */
+  height: auto; /* Isso manterá a proporção original da imagem */
+  /* Outros estilos que você deseja aplicar às imagens */
+}
+.list-linguagem-utilizada {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.devices {
+  display: flex;
+}
+
+@media (max-width: 1208px) {
+  #phone {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  /* Outros estilos para telas menores aqui */
+}
+@media (max-width: 1000px) {
+  .list-portfolio {
+    overflow: scroll;
+  }
+
+  /* Outros estilos para telas menores aqui */
+}
