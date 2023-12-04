@@ -3,53 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="phone.css" />
+    <title>Murillo Cardoso</title>
+
     <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
     <script
       src="https://kit.fontawesome.com/367278d2a4.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
  
   <body>
-    <header>   <a href="./index.html">Home</a>
-      <a href="./sobre.html">Sobre</a><a>Portifolio</a>
-      <a href="https://www.instagram.com/murillo.cardoso12/" class="fa-brands fa-instagram" id="icon"></a
-      ><a href="https://www.linkedin.com/in/murillo-cardoso-589338211/" class="fa-brands fa-linkedin" id="icon"></a>
-      <a href="https://github.com/MurilloCardoso" class="fa-brands fa-github" id="icon"></a>
+    <header>  
+      <a href="./index.html">Home</a>
+      <a href="./sobre.html">Sobre</a>
+   
     </header>
-    <main>
-      <section class="apresentacao">
-      <H4 class="MeuNome">Murillo C Martins</H4>
-    <p class="MeuNome">
-      Sou um entusiasta da área de tecnologia, em busca constante de evolução e aprendizado para
-      aprimorar a qualidade e o desempenho das minhas áreas de atuação, as quais englobam o
-      desenvolvimento móvel e de software.
-    </p>
-    <p class="MeuNome">Neste site, você encontrará o meu currículo, bem como as minhas criações nas áreas de web e mobile, totalmente gratuitas para uso, juntamente com o código para serem analisadas.</p>
+    <main style="display: flex; flex-direction: column;">
+    <div style="display: flex;justify-content: space-around;">
+      <section class="apresentacao" >
+        <H2 style="width: 450px; color: black; font-weight: 800; font-size: 50px;">Oi, Eu Sou <span style="color: gray;">Murillo Cardoso</span>.</H2>
+        <div style="width: 50px; height: 2px; background: grey;"> 
+        </div>
+        <div>
+      <p style="width: 400px; color: black;text-align: justify; font-weight: 400;">
+        Sou um entusiasta da área de tecnologia, em busca constante de evolução e aprendizado para
+        aprimorar a qualidade e o desempenho das minhas áreas de atuação, as quais englobam o
+        desenvolvimento móvel e de software.
+      </p>
+      <a href="./sobre.html">Ler mais</a>
+    </div>
+    </section>
+    <section class="apresentacao" >
+        <div>
+      <H2 style="width: 400px; color: black; font-weight: 700;">Desenvolvedor Mobile e Front-end Web</H2>
+      <div style="gap: 20px;display: flex;margin-top: 20px;">  
+        <a href="https://www.instagram.com/murillo.cardoso12/" class="fa-brands fa-instagram" id="icon"></a>
+        <a href="https://www.linkedin.com/in/murillo-cardoso-589338211/" class="fa-brands fa-linkedin" id="icon"></a>
+        <a href="https://github.com/MurilloCardoso" class="fa-brands fa-github" id="icon"></a>
+      </div>
+  </div>
   </section>
-     
-      
-      <section>
-        <h2>Oque eu já fiz?</h2>
+</div>
+<div style="  background-color: #f5f5f7; padding: 50px;  ">
+      <section style="display: flex; flex-direction: column;gap: 20px ; justify-content: center; ">
+
+      <div style="display: flex; text-align: center; flex-direction: column;">
+
+        <h2 style="font-size:40px;font-weight: 700;">Oque eu já fiz?</h2>
+        <p>Abaixo tenho alguns trabalhos que ja realizei ,seja apenas para meu portifolio quando para vendas</p>
+      </div>
         <div class="list-portfolio">
-          <article>
-            <i class="fa-light fa-globe"></i>
-            <p>Sites</p>
-         </article>
-         <article>
-          <i class="fa-solid fa-mobile"></i>
-            <p>Aplicativos</p>
-         </article>
+          <a class="qualificacoes-border" href="./sobre.html">
+            <i class="fa-solid fa-code" style="font-size:34px;"></i>
+            <p style="font-size: 18px;">Web development</p>
+           
+          </a>
+         <a class="qualificacoes-border" href="./analise-app.html">
+          <i class="fa-solid fa-mobile" style="font-size:34px;" ></i>
+            <p style="font-size: 18px;">Mobile development</p>
+         </a> <a class="qualificacoes-border" href="./sobre.html">
+          <i class="fa-solid fa-mobile" style="font-size:34px;"></i>
+            <p style="font-size: 18px;">Games</p>
+         </a>
+         <a class="qualificacoes-border" target="_blank" href="./sobre.html">
+          <i class="fa-solid fa-pen-nib" style="font-size:34px;"></i>
+            <p style="font-size: 18px;">UI/Design</p>
+         </a>
         </div>
       
       </section>
+      <div style="margin-top: 20px;margin-bottom: 20px;">
       <h1 class="text-Meu-Portifolio">
         <span class="gray-text">Meu portifolio.</span>
         <span class="black-text">Dê uma olhada em um dos meus trabalhos</span>
       </h1>
+    </div>
       <div style="display: flex; gap:20px; flex-direction: column;">
       <section class="qualificacoes">
         <h2>
@@ -87,8 +117,8 @@
                       </div>
                     </div>
                       <div class="list-item-misc">
-                        <div> <a href="https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download" target="_blank"  style=" font-size: 1.5rem" class="fa-solid fa-download"></a><p>Baixar Apk</p></div>
-                        <div> <a href="https://github.com/MurilloCardoso/TicketUser" target="_blank" class="fa-brands fa-github" style=" font-size: 1.5rem" ></a><p>Repositório</p></div>
+                        <div> <a href="https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download" target="_blank"  style=" font-size: 1.5rem;color: black;" class="fa-solid fa-download"></a><p>Baixar Apk</p></div>
+                        <div > <a href="https://github.com/MurilloCardoso/TicketUser" target="_blank" class="fa-brands fa-github" style=" font-size: 1.5rem;color: black;" ></a><p>Repositório</p></div>
                       </div>
                 
              </div>
@@ -132,19 +162,20 @@
                       </div>
                     </div>
                       <div class="list-item-misc">
-                        <div> <a href="https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download" target="_blank"  style=" font-size: 1.5rem" class="fa-solid fa-download"></a><p>Baixar Apk</p></div>
-                        <div> <a href="https://github.com/MurilloCardoso/TicketUser" target="_blank" class="fa-brands fa-github" style=" font-size: 1.5rem" ></a><p>Repositório</p></div>
+                        <div> <a href="https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download" target="_blank"  style=" font-size: 1.5rem;color: black;" class="fa-solid fa-download"></a><p>Baixar Apk</p></div>
+                        <div> <a href="https://github.com/MurilloCardoso/TicketUser" target="_blank" class="fa-brands fa-github" style=" font-size: 1.5rem;color: black;" ></a><p>Repositório</p></div>
                       </div>
                 
              </div>
           </div>
         </div>
-       
-      </section></div>
+      </section>
+     
+ 
     </main>
     <footer class="legal-footer">
       <section class="footer-list">
-        <a>Sobre</a><a>Portifolio</a><a>Instagram</a><a>Linkdin</a><a>Github</a>
+        <a href="./sobre.html">Sobre</a><a href="https://www.instagram.com/murillo.cardoso12/">Instagram</a><a href="https://www.linkedin.com/in/murillo-cardoso-589338211/">Linkdin</a><a  href="https://github.com/MurilloCardoso">Github</a>
       </section>
       <div class="copyright">
         Copyright © 2023.Todos os direitos reservados. Murillo Cardoso. Email:
@@ -152,4 +183,6 @@
       </div>
     </footer>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </html>

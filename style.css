@@ -4,22 +4,37 @@ body {
   color: #1D1D1F;
   margin: 0px;
 }
-main{
-
-margin: 50px;
+header a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
-.text-Meu-Portifolio{
-  font-size: 24px;
+main{
+  transform: translateY(-50px);
+  animation: slideDown 1s ease forwards;
+}
+.text-Meu-Portifolio span{
+  font-size: 20px;
+  font-weight: 600;
+}
+p{
+  color: black;
 }
 #icon{
+text-decoration: none;
+  color: #1D1D1F;
 font-size: 2rem;
+
 }
 .MeuNome, .devNome {
   font-size: 24px;
-  color: #1D1D1F;
+  color: #1D1D1F;  transform: translateY(-50px);
+  animation: slideDown 1s ease forwards;
 }
 
 header {
+  transform: translateY(-50px);
+  animation: slideDown 1s ease forwards;
   padding: 15px;
   background: #121212;
   align-items: center;
@@ -46,6 +61,29 @@ header a {
 .black-text {
   color: gray;
 }
+.qualificacoes-border {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideDown 1s ease forwards;
+  display: flex;
+  background-color: #fff;
+  width: 300px; /* Largura fixa */
+  max-width: 100%; /* Garante que não ultrapasse o tamanho da tela */
+  padding-top: 40px;
+  padding-bottom: 30px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.qualificacoes-border :hover{
+cursor: pointer;
+
+}
 .qualificacoes {
   opacity: 0;
   transform: translateY(-50px);
@@ -53,7 +91,7 @@ header a {
   display: flex;
   background-color: #fff;
   border-radius: 18px;
-  padding: 30px;
+padding: 30px;
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
   transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
   flex-wrap: wrap;
@@ -74,9 +112,15 @@ header a {
 gap: 20px;
   align-items: center;
 }
-
-.apresentacao p{
+.apresentacao{ 
+  gap: 20px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
  
+};
+.apresentacao p{
+
   width: 700px;
   text-align: justify;
 }
@@ -87,6 +131,7 @@ gap: 20px;
 }
 .list-portfolio{
   display: flex;
+  justify-content: center;
   gap: 40px;
 }
 .list-portfolio article i{
@@ -102,9 +147,8 @@ align-items: center;
 }
 a { 
   text-decoration: none;
-  color: black;
+  color: black;   font-style: normal;
 }
-
 .list-item-misc div p {
  
   font-weight: 600;
@@ -122,11 +166,13 @@ a {
   flex-direction: row;
   box-sizing: border-box;
   justify-content: center;
-  align-items: center;
   background-color: #fff;
   border-radius: 18px;
-  padding-left: 25px;
-  padding-right:25px;
+  text-align: center;
+  padding-left: 15px;
+  padding-top: 15px;
+
+  padding-right: 15px;
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
   transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
 }
@@ -162,9 +208,17 @@ display: flex;
       flex-wrap: wrap;
       flex-direction: column;
     }
-    
+   
   /* Outros estilos para telas menores aqui */
-}@keyframes slideDown {
+}
+@media (max-width: 1000px) {
+.list-portfolio{
+  overflow: scroll;
+}
+   
+  /* Outros estilos para telas menores aqui */
+}
+@keyframes slideDown {
   0% {
       opacity: 0;
       transform: translateY(-50px);

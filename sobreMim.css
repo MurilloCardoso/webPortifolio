@@ -1,0 +1,21 @@
+
+main {
+    margin: 50px;   
+    
+}
+main h2{
+    font-weight: 800;    
+}
+main h7{
+    font-weight: 700;
+    color: black;    
+}
+
+.icon-sobre{
+  display: flex;
+  align-items: center;  
+  gap: 10px;
+
+}.icon-sobre a{
+    text-decoration: none;
+}
