@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/webPortifolio/static/css/main.2e5b1043.css",
+    "main.js": "/webPortifolio/static/js/main.3ebb63d4.js",
+    "static/js/787.d4aba7ab.chunk.js": "/webPortifolio/static/js/787.d4aba7ab.chunk.js",
+    "static/media/home-task.png": "/webPortifolio/static/media/home-task.6fd3576e8ff9aefe88bc.png",
+    "static/media/chat-task.png": "/webPortifolio/static/media/chat-task.b9cb63032278effc0efb.png",
+    "static/media/chat-task-down.png": "/webPortifolio/static/media/chat-task-down.55baee6f545a1b49d958.png",
+    "static/media/flutter.png": "/webPortifolio/static/media/flutter.ae7f97aae26959fefbe7.png",
+    "static/media/java.png": "/webPortifolio/static/media/java.7d364d992c1ce5b3ebe3.png",
+    "static/media/insert-task.png": "/webPortifolio/static/media/insert-task.a101a945f7dc2f25713e.png",
+    "static/media/login-task.png": "/webPortifolio/static/media/login-task.a130be356608fce57897.png",
+    "index.html": "/webPortifolio/index.html",
+    "main.2e5b1043.css.map": "/webPortifolio/static/css/main.2e5b1043.css.map",
+    "main.3ebb63d4.js.map": "/webPortifolio/static/js/main.3ebb63d4.js.map",
+    "787.d4aba7ab.chunk.js.map": "/webPortifolio/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e5b1043.css",
+    "static/js/main.3ebb63d4.js"
+  ]
+}
