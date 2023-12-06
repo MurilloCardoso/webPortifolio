@@ -1,38 +1,43 @@
-.list-portfolio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
+.list-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.apresentacao{ 
-    margin: 50px;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
+.apresentacao {
+  margin: 50px 80px 50px 80px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
 }
-.MainInfo{
-    padding: 50px;
-    background-color: #f5f5f7;
+.MainInfo {
+  padding: 50px;
+  background-color: #f5f5f7;
 }
-.OqueEuFiz{
- 
-    gap: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-};
+.OqueEuFiz {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .qualificacoes {
-    
-    animation: slideDown 1s ease forwards;
-    display: flex;
-    background-color: #fff;
-    border-radius: 18px;
-     padding: 30px;
-    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 20px;
-  
+  animation: slideDown 1s ease forwards;
+  display: flex;
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+.grid-layout {
+  border-radius: 18px;
+  padding: 30px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }

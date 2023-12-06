@@ -1,6 +1,7 @@
 [
   {
     "title": "Task Use.",
+    "plataform": "mobile",
     "description": "Solução para criação de chamados",
     "devices": ["home-task", "chat-task", "insert-task"],
     "text": "Este aplicativo foi criado com o objetivo de simplificar a comunicação e o processo de abertura de chamados em diversos setores. Os usuários podem facilmente abrir um ticket para relatar problemas ou solicitar assistência. Além disso, o app permite acompanhar o status de resolução do chamado em tempo real. Para tornar a experiência mais interativa, o aplicativo também oferece um recurso de chat, permitindo aos usuários comunicar-se diretamente com o responsavel que atender o chamado. Com essa solução, a gestão de solicitações e problemas se torna mais eficiente e transparente, melhorando a experiência tanto para os usuários quanto para as equipes de suporte.",
@@ -10,11 +11,32 @@
   },
   {
     "title": "Indo Ali.",
+    "plataform": "web",
     "description": "Gerenciamento de viagem",
     "devices": ["home-task", "chat-task", "insert-task"],
     "text": "Este aplicativo foi criado com o objetivo de simplificar a comunicação e o processo de abertura de chamados em diversos setores. Os usuários podem facilmente abrir um ticket para relatar problemas ou solicitar assistência. Além disso, o app permite acompanhar o status de resolução do chamado em tempo real. Para tornar a experiência mais interativa, o aplicativo também oferece um recurso de chat, permitindo aos usuários comunicar-se diretamente com o responsavel que atender o chamado. Com essa solução, a gestão de solicitações e problemas se torna mais eficiente e transparente, melhorando a experiência tanto para os usuários quanto para as equipes de suporte.",
-    "ling": ["android", "flutter","java"],
+    "ling": ["android", "flutter", "java"],
     "download": "https://drive.google.com/uc?id=1DNrFul2jY52-YZy0woGeiIVsPJH7y_JH&export=download",
     "github": "https://github.com/MurilloCardoso/TicketUser"
+  },
+  {
+    "title": "Store Zoom.",
+    "plataform": "mobile",
+    "description": "Loja online de produtos variados",
+    "devices": ["home-task", "chat-task", "insert-task"],
+    "text": "O aplicativo foi baseado em compras e e-comerce como Ali Express e shope, mas com um design minimalista e simplificado para melhor entendimento do usuário",
+    "ling": ["android", "flutter"],
+    "download": "https://github.com/MurilloCardoso/store-app-flutter/archive/refs/heads/main.zip",
+    "github": "https://github.com/MurilloCardoso/store-app-flutter.git"
+  },
+  {
+    "title": "Store Zoom.",
+    "plataform": "mobile",
+    "description": "Loja online de produtos variados",
+    "devices": ["home-task", "chat-task", "insert-task"],
+    "text": "O aplicativo foi baseado em compras e e-comerce como Ali Express e shope, mas com um design minimalista e simplificado para melhor entendimento do usuário",
+    "ling": ["android", "flutter"],
+    "download": "https://github.com/MurilloCardoso/store-app-flutter/archive/refs/heads/main.zip",
+    "github": "https://github.com/MurilloCardoso/store-app-flutter.git"
   }
 ]

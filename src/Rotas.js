@@ -12,8 +12,8 @@ function Rotas() {
     <Header />
     <div>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/sobre" element={<SobrePage />} />
+        <Route path="/webPortifolio/" element={<HomePage />} />
+        <Route path="/webPortifolio/sobre" element={<SobrePage />} />
       </Routes>
       </div>
       <Footer/>

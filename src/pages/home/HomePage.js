@@ -1,12 +1,14 @@
 import Divider from "../../componente/divider/Divider";
 import Cabecalho from "../../componente/text/Cabeçalho/Cabecalho";
-import Card from "../../componente/Card/Card";
+import Card from "../../componente/Cards/Card/Card";
 import { BiCodeAlt } from "react-icons/bi"; // Corrigido o import dos ícones
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 import "./style.css";
-import CardMobile from "../../componente/CardMobile/CardMobile";
+import CardRecent from "../../componente/Cards/CardRecent/CardRecent";
+import Grid from "../../componente/Grid/Grid";
 import item from "../../project.json";
 import { Link } from "react-router-dom";
+
 function HomePage() {
   return (
     <main style={{ display: "flex", flexDirection: "column" }}>
@@ -95,15 +97,35 @@ function HomePage() {
         </section>
 
         <Cabecalho
-          texto={"Meu portifolio."}
+          texto={"Projetos recentes."}
           span={" Dê uma olhada em um dos meus trabalhos"}
           ponto={false}
           fontWeight={600}
           fontSize={25}
         ></Cabecalho>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-          <CardMobile item={item[0]} />
-          <CardMobile item={item[1]} />
+          <div className="grid-layout">
+          <CardRecent item={item[0]} />
+          <CardRecent item={item[1]} />
+          <CardRecent item={item[2]} />
+          <CardRecent item={item[3]} />
+        
+          </div>
+        </div>    <Cabecalho
+          texto={"Experiencias."}
+          span={" Minhas habilidades"}
+          ponto={false}
+          fontWeight={600}
+          fontSize={25}
+        ></Cabecalho>
+           <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+          <div className="grid-layout">
+          <CardRecent item={item[0]} />
+          <CardRecent item={item[1]} />
+          <CardRecent item={item[2]} />
+          <CardRecent item={item[3]} />
+        
+          </div>
         </div>
         {/* <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email:</label>
