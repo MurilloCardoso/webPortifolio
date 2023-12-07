@@ -5,7 +5,7 @@
   gap: 20px;
 }
 .apresentacao {
-  margin: 50px 80px 50px 80px;
+  margin: 50px 140px 50px 140px;
   flex-direction: row;
   display: flex;
   justify-content: space-around;
@@ -40,4 +40,24 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+}
+.text-apresentacao {
+  text-align: "justify";
+  width: "40%";
+  color: "black";
+  font-weight: "400";
+}
+@media screen and (max-width: 600px) {
+  .apresentacao {
+    margin: 50px 80px 50px 80px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  }
+  .text-apresentacao {
+    text-align: justify;
+    width: 100%;
+    color: black;
+    font-weight: 400;
+  }
 }

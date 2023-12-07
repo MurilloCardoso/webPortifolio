@@ -19,18 +19,11 @@ function HomePage() {
               texto={"Oi, Eu Sou"}
               span={"Murillo Cardoso"}
               ponto={true}
-              fontWeight={800}
-              fontSize={40}
             ></Cabecalho>
           </div>
           <Divider width={"50"}></Divider>
           <p
-            style={{
-              textAlign: "justify",
-              width: "40%",
-              color: "black",
-              fontWeight: "400",
-            }}
+           className="text-apresentacao"
           >
             Sou um entusiasta da área de tecnologia, em busca constante de
             evolução e aprendizado para aprimorar a qualidade e o desempenho das
@@ -44,8 +37,8 @@ function HomePage() {
             <Cabecalho
               texto={"Desenvolvedor Mobile e Front-end Web"}
               ponto={true}
-              fontWeight={800}
-              fontSize={40}
+         
+       
             ></Cabecalho>
           </div>
           <div style={{ display: "flex", gap: "25px" }}>
@@ -100,8 +93,6 @@ function HomePage() {
           texto={"Projetos recentes."}
           span={" Dê uma olhada em um dos meus trabalhos"}
           ponto={false}
-          fontWeight={600}
-          fontSize={25}
         ></Cabecalho>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           <div className="grid-layout">
@@ -115,8 +106,6 @@ function HomePage() {
           texto={"Experiencias."}
           span={" Minhas habilidades"}
           ponto={false}
-          fontWeight={600}
-          fontSize={25}
         ></Cabecalho>
            <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           <div className="grid-layout">

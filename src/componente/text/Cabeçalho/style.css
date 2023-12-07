@@ -1,3 +1,12 @@
-.title{
-    font-family: 400 17px/1.47059 "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.title {
+  font-family: 400 "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 30px;
+  }
 }

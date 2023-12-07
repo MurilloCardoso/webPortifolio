@@ -1,17 +1,16 @@
-
 header {
-    animation: slideDown 1s ease forwards;
-    padding: 15px;
-    background: #121212;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    text-align: center;
-  }
-  
-  header a {
-   text-decoration: none;
-    color: #ffffff;
-  
-  }
+  animation: slideDown 1s ease forwards;
+  padding: 15px;
+  background: #121212;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
